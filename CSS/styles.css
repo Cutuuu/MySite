@@ -1,0 +1,174 @@
+
+  /****!Favicon is a fav icon that is shown when a website is opened against the name of the website in the tab eg Sean's favicon is a cute boy*****/
+
+
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  color: #40514E;
+}
+h1{
+font-size: 5.625rem; /*** 100%=16px=1em, rem= relative to root i.e h1 not to body**/
+  color: #ffaaa5;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+
+
+}
+.favicon{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  margin: auto;
+
+
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #ffaaa5;
+  font-weight: normal;
+padding-top: 10px;
+  margin: auto;
+
+}
+yog-description{
+  padding-bottom: 30px;
+}
+p{
+  line-height: 2;
+}
+h3{
+  color: #FB7B6B;
+margin: 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.top-container{
+  background-color: #fb7b6b;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container{
+background-color: #f1fcfc;
+}
+.bottom-container{
+  background-color: #FB7B6B;
+  padding: 50px 0 20px;
+}
+.yo{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 60%;
+  top: 5%;
+
+}
+.bottom-cloud {
+  position: absolute;
+right: 75%;
+bottom: 40%;
+}
+.skills{
+  padding-top: 100px;
+}
+.pizza{
+
+
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+.me{
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  border-width: 4px;
+
+}
+
+.yogi{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  border-width: 4px;
+  width: 55%;
+  margin-right: 30px;
+  float: left;
+}
+a {
+  color: #ffaaa5;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+
+hr{
+   border-style: none;
+      border-top-style: dotted;
+      border-top-color: #8db1ab;
+      border-width: 10px;
+      width: 10%;
+      margin: auto;
+
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+.myButton {
+	background-color:#FB7B6B;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffaaa5;
+
+}
+.bye{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.contact-me-description{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: white;
+  font-size: 0.75em;
+  padding: 20px 0 20px 0;
+}
+.end{
+  background-color: #FB7B6B;
+}
+
+/** if you want your image to be relative to top cloud, change its position to relative as well otherwise by default it will be relative to body***/
